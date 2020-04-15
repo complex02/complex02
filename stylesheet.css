@@ -12,7 +12,6 @@ a {
 }
 
 .container {
-  max-width: 1170px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -22,7 +21,6 @@ a {
   padding: 180px 0 100px 0;
   background-image: url("b03b67c9b8c20bdbb6f92c5877d9f707_m.jpg");
   background-size: cover;
-  color: white;
   text-align: center;
 }
 
@@ -75,10 +73,11 @@ header {
 }
 
 .about-wrapper {
+  height: 1000px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #f2f200;
   text-align: center;
 }
 
@@ -93,7 +92,15 @@ header {
 }
 
 .table {
+  margin-left: auto;
+  margin-right: auto;
   width: 25%;
+}
+
+
+
+.table p {
+  border-bottom: 1px solid black;
 }
 
 .message-wrapper {
@@ -178,5 +185,3 @@ footer {
   .about-wrapper {
     height: 1700px;
   }
-
-
