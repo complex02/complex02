@@ -15,6 +15,14 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+    font-size: 14px;
+    margin: 0 auto 70px auto;
 }
 
 .top-wrapper {
