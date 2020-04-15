@@ -15,14 +15,12 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url("b03b67c9b8c20bdbb6f92c5877d9f707_m.jpg");
   background-size: cover;
-  color: white;
   text-align: center;
 }
 
@@ -36,31 +34,6 @@ a {
   opacity: 0.7;
   font-size: 16px;
   margin-bottom: 40px;
-}
-
-.btn-wrapper {
-  text-align: center;
-}
-
-.btn-wrapper p {
-  margin-bottom: 20px;
-}
-
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
 }
 
 header {
@@ -99,7 +72,7 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
+.about-wrapper {
   height: 580px;
   padding-bottom: 80px;
   padding-left: 5%;
@@ -118,51 +91,15 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.table {
   float: left;
   width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
 }
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
 }
 
 footer img {
@@ -187,9 +124,6 @@ footer {
   display: none;
 }
 
-.clear {
-  clear: left;
-}
 
 @media all and (max-width: 1000px) {
   .lesson {
@@ -197,14 +131,14 @@ footer {
     margin-bottom: 50px;
   }
 
-  .lesson-wrapper {
+  .about-wrapper {
     height: 990px;
   }
 
   footer {
     text-align: center;
   }
-}
+
 
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
@@ -214,7 +148,7 @@ footer {
   .heading h2 {
     font-size: 20px;
   }
-}
+
 
 @media all and (max-width: 670px) {
   .header-right {
@@ -225,13 +159,7 @@ footer {
     display: block;
   }
 
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  .twitter {
-    margin-top: 10px;
-  }
+ 
 
   .top-wrapper {
     text-align: left;
@@ -245,15 +173,10 @@ footer {
     font-size: 14px;
   }
 
-  .lesson {
-    width: 100%;
-  }
+  
 
-  .lesson-wrapper {
+  .about-wrapper {
     height: 1700px;
   }
 
-  .message-wrapper .btn {
-    width: 100%;
-  }
-}
+
